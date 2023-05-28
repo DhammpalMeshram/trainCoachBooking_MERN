@@ -1,0 +1,23 @@
+#container{
+    background-color: rgb(231, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+#bookingContainer{
+    background-color: #fff;
+    width: 90%;
+    padding:10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 10px;
+    gap:40px;
+}
+
+

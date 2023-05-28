@@ -1,0 +1,66 @@
+
+#status {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    gap:20px;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px gray solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 50px;
+}
+
+#status .statusRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#status .seatType{
+    display: inline-flex;
+    margin-left: 10px;
+    width: 180px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#status .seatQty{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.booked{
+    color: rgb(233, 72, 99);
+}
+.available{
+    color: rgb(30, 207, 36);
+}
+.ladies{
+    color: rgb(233, 72, 99);
+}
+.gents{
+    color:rgb(211, 157, 57)
+}
+.hidden{
+    display: none;
+    color: white;
+}
+
+.confiredDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245, 166, 209);
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px gray;
+    padding: 10px;
+}
+
+.confiredDiv h3, h4{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+}

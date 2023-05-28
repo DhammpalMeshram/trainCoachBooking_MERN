@@ -1,0 +1,51 @@
+#coach{
+    display: flex;
+    justify-content: center;
+    border: 2px gray solid;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    margin-top: 50px;;
+}
+
+#row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#row svg{
+    font-size: 25px;
+    margin: 5px 5px;
+}
+
+
+.booked{
+    color: rgb(223, 211, 211)
+}
+.availabel{
+    color: rgb(30, 207, 36);
+}
+.ladies{
+    color: rgb(233, 72, 99);
+}
+.gents{
+    color:rgb(211, 157, 57)
+}
+
+.seatDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px gray solid;
+    margin: 2px;
+    border-radius: 4px;
+
+}
+
+.hiddend{
+    color: white;
+    border: none;
+}

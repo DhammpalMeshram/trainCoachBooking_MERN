@@ -1,0 +1,51 @@
+#footer{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+    background-color: white;
+    border-top: 2px rgb(236, 236, 236) solid;
+}
+
+.headingClass{
+    display: inline;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    color:#1645ed;
+}
+
+.activeLink{
+    cursor: pointer;
+}
+
+#footer #copywrite p{
+    font-size: 13px;
+}
+
+#footer #community a, #help a{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    color:black;
+    margin: 5px 0px;
+}
+
+
+#footer #community a:hover, #help a:hover {
+    color:blueviolet;
+}
+
+#footer #community a svg, #help a svg, #contact-us p svg{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#footer #contact-us p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
